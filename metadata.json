@@ -1,0 +1,8 @@
+{
+  "name": "Remix Barangay Bugo Resident Assistance Management System",
+  "description": "A web-based resident assistance application, tracking, and record management system for Barangay Bugo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

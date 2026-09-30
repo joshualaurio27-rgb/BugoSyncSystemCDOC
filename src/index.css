@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #1E3A8A;
+    --color-primary-dark: #172554;
+    --color-primary-light: #3B82F6;
+    --color-surface: #ffffff;
+    --color-surface-container: #f3f4f6;
+    --color-surface-high: #e5e7eb;
+    --color-outline: #6b7280;
+    --color-outline-variant: #e5e7eb;
+    --color-text-main: #1f2937;
+    --color-text-muted: #4b5563;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #F3F4F6;
+    color: #111827;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.font-serif-brand {
+  font-family: 'Source Serif 4', Georgia, Cambria, serif;
+}
+
+.font-sans-brand {
+  font-family: 'Inter', sans-serif;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
+
